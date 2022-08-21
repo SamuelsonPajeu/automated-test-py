@@ -8,6 +8,7 @@ class Main():
     c: Conectar = field(default=Conectar())
     r: ReceberDados = field(default=ReceberDados())
 
+
     def start(self):
         print("> [Main - start] starting...")
         # Conectar na DB
